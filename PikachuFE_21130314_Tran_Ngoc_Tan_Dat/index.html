@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pikachu</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/e7498fd49d.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="wrapper" class="wrapper">
+        <div class="overview">
+            <div class="title">
+                <h1 class="title__game">PIKACHU</h1>
+            </div>
+            <div class="intro">
+                <div class="intro__content">
+                    <label class="content__levels" for="levels">CHOOSE LEVEL</label>
+                    <select name="levels_name" id="levels">
+                        <option value="easy">EASY</option>
+                        <option value="medium">MEDIUM</option>
+                        <option value="hard">HARD</option>
+                        <option value="extrem">EXTREM</option>
+                        <option value="terrible">TERRIBLE</option>
+                        <option value="nightmare">NIGHTMARE</option>
+                    </select>
+                    <button class="start_btn">START</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main__game" style="display: none;">
+            <div class="main__game--content">
+                <div class="game__content--left">
+                    <div class="left left-avt">
+                        <img src="./Images/pika.png" alt="">
+                    </div>
+                    <div class="left left-level">
+                        
+                    </div>
+                    <div class="left left-core">
+                        
+                    </div>
+                    <div class="left left-shuffle">
+                        
+                    </div>
+
+                </div>
+
+                <div class="game__content--right">
+                    <div class="title">
+                        <h1 class="title__game">PIKACHU</h1>
+                    </div>
+                    <div class="start__game" id="start_button">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
